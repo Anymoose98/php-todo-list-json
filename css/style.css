@@ -4,3 +4,13 @@
     box-sizing: border-box;
 }
 
+.contenitore-to-do-list{
+    max-width: 600px;
+    margin: 50px auto;
+    height: 80px;
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+}
