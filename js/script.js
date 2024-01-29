@@ -1,15 +1,11 @@
-const { createApp } = Vue;
-
+const { createApp } = Vue
 createApp({
     data() {
         return {
-            
+            titolo: "prova"
         }
     },
     methods: {
         
     },
-    mounted() {
-        
-    },
-})
+}).mount("#app");

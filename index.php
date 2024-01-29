@@ -8,19 +8,11 @@
     <title>PHP ToDo List JSON</title>
 </head>
 <body>
-    <div class="app">
-        <div class="container">
-             <div class="row">
-                 <div class="col-12">
-                     <h1 class="text-center">To do list</h1>
-                 </div>
-                 <div class="contenitore-to-do-list"></div>
-             </div>       
+    <div class="app">   
+        <h1> {{ titolo}} </h1>
     </div>
-
-    </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js" integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="./js/script.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/script.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js" integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
